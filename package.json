@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/gulpinhenry/README-Generator/issues"
   },
-  "homepage": "https://github.com/gulpinhenry/README-Generator#readme"
+  "homepage": "https://github.com/gulpinhenry/README-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
 }

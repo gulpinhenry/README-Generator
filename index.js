@@ -25,9 +25,9 @@ function init() {
             name: "title"
         },
         {
-            type: "checkbox", 
+            type: "list", 
             message:"What license is your project covered under?",
-            choices: ["English", "Spanish", "French"],
+            choices: ["Apache 2.0", "GNU GPL v3", "MIT","MPL 2.0"],
             name: "license"
         },
     ])

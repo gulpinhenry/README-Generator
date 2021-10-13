@@ -1,6 +1,6 @@
-# test-name
+# Demo-Name
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ---
 
@@ -15,22 +15,22 @@
 
 
 ## Description
-test desc
+Test Description!!!
 
 ## Installation
-test inst
+This is the sample installation guide
 
 ## Usage
-test usage
+USAGE instructions here!!!
 
 ## License
-This application is covered under the Apache 2.0 license.
+This application is covered under the MIT license.
 
 ## Contributing
-test cont
+Me
 
 ## Tests
-test test
+SAMPLE test
 
 ## Questions
 For any questions, please reach out by creating an issue.

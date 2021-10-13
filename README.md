@@ -24,7 +24,7 @@ A rudimentary README generator. Exploring Node.js and npm.
 
 **See this unique experience in action!**
 
-![README Generator Demo]()
+![README Generator Demo](utils/demogif.gif)
 
 ## Installation
 

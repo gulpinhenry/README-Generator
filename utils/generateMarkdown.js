@@ -28,12 +28,44 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  // backslashn works
+  // backslashn works, use tab for code
   return `# ${data.title}
 
 ` + renderLicenseSection(data.license) + `
-hihi
+---
+
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+
+
+## Description
+${data.description}
+
+## Installation
+${data.installation}
+
+## Usage
+${data.usage}
+
+## License
+This application is covered under the ${data.license} license.
+
+## Contributing
+${data.contributing}
+
+## Tests
+${data.tests}
+
+## Questions
+For any questions, please reach out by creating an issue.
 `;
 }
 
 module.exports = {generateMarkdown};
+//Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions

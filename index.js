@@ -30,6 +30,11 @@ function init() {
             choices: ["Apache 2.0", "GNU GPL v3", "MIT","MPL 2.0"],
             name: "license"
         },
+        {
+            type: "input", 
+            message:"Please enter a description of your project:",
+            name: "description"
+        }
     ])
     .then((response)=> {
         writeToFile("./output/README.md", response)

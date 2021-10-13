@@ -8,11 +8,17 @@ function renderLicenseLink(license) {}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  //check number of licenses, return the ![]() thing for all of them, backslash n works
+  return "wowow "
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  // backslashn works
   return `# ${data.title}
+
+` + renderLicenseSection(data.license) + `
 
 `;
 }

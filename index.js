@@ -21,9 +21,15 @@ function init() {
     inquirer.prompt([
         {
             type: "input",
-            message: "what is your project called?",
+            message: "What is your project called?",
             name: "title"
-        }
+        },
+        {
+            type: "checkbox", 
+            message:"What license is your project covered under?",
+            choices: ["English", "Spanish", "French"],
+            name: "license"
+        },
     ])
     .then((response)=> {
         writeToFile("./output/README.md", response)

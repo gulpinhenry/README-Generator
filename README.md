@@ -38,6 +38,8 @@ A rudimentary README generator. Exploring Node.js and npm.
 
         node index.js
 
+Find generated README in the output directory
+
 
 ## Built With
 

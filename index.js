@@ -34,7 +34,29 @@ function init() {
             type: "input", 
             message:"Please enter a description of your project:",
             name: "description"
-        }
+        },
+        {
+            type: "input", 
+            message:"Please enter installation instructions for your project:",
+            name: "installation"
+        },
+        {
+            type: "input", 
+            message:"Please enter usage instructions for your project:",
+            name: "usage"
+        },
+        {
+            type: "input", 
+            message:"Please enter contributors for your project:",
+            name: "contributing"
+        },
+        {
+            type: "input", 
+            message:"Please enter tests for your project:",
+            name: "tests"
+        },
+
+
     ])
     .then((response)=> {
         writeToFile("./output/README.md", response)

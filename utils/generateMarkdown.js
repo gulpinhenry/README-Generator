@@ -28,7 +28,8 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  // backslashn works, use tab for code
+  // backslashn works, use tab for code, there is no backslash when you enter in the installations and stuff
+
   return `# ${data.title}
 
 ` + renderLicenseSection(data.license) + `
